@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1561729628 source:d:\c-_program\multiplication table\friend_class\abstraction.cpp
+	"abstraction.h"
+
+1561729628 d:\c-_program\multiplication table\friend_class\abstraction.h
+
+1561729899 source:d:\c-_program\multiplication table\friend_class\main.cpp
+	<iostream>
+

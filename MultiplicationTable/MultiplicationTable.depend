@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1561524921 source:d:\c-_program\multiplication table\multiplicationtable\main.cpp
+	<iostream>
+	"multable.h"
+
+1561524970 d:\c-_program\multiplication table\multiplicationtable\multable.h
+
+1561524990 source:d:\c-_program\multiplication table\multiplicationtable\multable.cpp
+	"multable.h"
+	<iostream>
+
