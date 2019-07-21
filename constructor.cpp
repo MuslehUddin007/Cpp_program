@@ -4,7 +4,7 @@ class Student{
 	public:
 		int id;
 		double gpa;
-		
+
 		//constructor//
 		Student(int x, double y){
 			id = x;
@@ -18,8 +18,8 @@ class Student{
 
 int main()
 {
-	Student khan(2313,3.85);
+    Student khan(2313,3.85);
 	khan.display();
-	
+
 	return 0;
 }

@@ -18,7 +18,7 @@ void printDistinctSubStrs(string input,int sizeOfSubStr){
 		}
 		subStrFreqMap[ss.str()]++;
 	}
-	
+
 	for(map<string,int>::iterator itr = subStrFreqMap.begin();itr != subStrFreqMap.end();itr++){
 		cout << itr->first << "-" << itr->second << endl;
 	}
