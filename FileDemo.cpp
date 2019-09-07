@@ -12,7 +12,7 @@ int main()
     //file << "I am Musleh Uddin. I'm 20 year old" << endl;
     cout << "Enter your name : ";
     getline(cin,name);
-    file << name << endl;
+    file <<"Welcome " << name << endl;
     file.close();
 
     return 0;
