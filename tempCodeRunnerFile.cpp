@@ -1,0 +1,1 @@
+std::cout << "Why always Hello world!" << std::endl;
