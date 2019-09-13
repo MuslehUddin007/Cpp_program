@@ -59,11 +59,10 @@ int diameterOpt(struct Node *root, int *height){
     }
     ldiameter = diameterOpt(root->left,&lh);
     rdiameter = diameterOpt(root->right,&rh);
-    cout << "Lheight : " << lh << endl;
-    cout << "Rheight : " << rh << endl;
-    cout << "Ldiameter : " << ldiameter << endl;
-    cout << "Rdiameter : " << rdiameter << endl;
+    cout << "Lheight : " << lh << ", Data : " << root->data << "\n" << "Rheight : " << rh <<", Data : " << root->data << endl;
+    cout << "Ldiameter : " << ldiameter << "\n" << "Rdiameter : " << rdiameter << endl;
     *height = max(lh,rh)+1;
+    cout << "Heighit : " << *height << endl;
     return max(lh+rh+1,max(ldiameter,rdiameter));
 }
 

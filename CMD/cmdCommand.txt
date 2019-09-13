@@ -1,0 +1,17 @@
+01. mkdir --make directory Ex. mkdir Homework;
+02. type nul > file.ext  --create file Ex. type nul > test.txt;
+03. Open file just go to that directory and type file name with extention;
+04. rmdir --remode directory Ex. rmdir /s Homework;
+05. del --remode  file Ex. del test.txt;
+06. "\*searchItem*" /s --search item Ex. "\*Test.txt*" /s;
+07. start notepad,explorer,calc,cmd,taskmgr;
+08. rename --raname file Ex. rename test.txt hello.txt;
+09. Ex. rename "computer hope.txt" "example file.txt";
+10. rename *.rtf *.txt;
+11. rename computer hope --rename directory;
+12. rename "computer hope" "example hope";
+13. copy fileName.txt "destenation" --copy file; 
+14. dir E: --see the content of E but not change the directory;
+15. xcopy --copy the content not the directory, /s - copy subdirectory also;
+16.move moveFile exampeFile --to move file; 
+
