@@ -1,0 +1,20 @@
+##Software Engineer##
+01. C++,JAVA,PHP,Python,HTML5/CSS3,JavaScript,Ruby;
+02. Source Control (GIT,SVN,CVS etc);
+
+##Java Developer##
+01. OOPs Concepts, Design Patterns, Data Structures, Internals of JVM, Multithreading and Synchronization.
+02. Networking, MultiMedia, Automobile, Finance;
+03. JUnit Testing, Debugging, ANT;
+04. Source Control (GIT,SVN,CVS etc),Database Programming(SQL);
+
+#Need to learn##
+1.Intellij/Eclipse
+2.Spring framework
+3.Spring boot
+4.Test driven development
+5.System desing
+6.OOPs analysis and design
+7.Relational detabase, SQL and Object Relation Mapping(ORM)
+
+

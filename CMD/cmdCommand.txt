@@ -13,5 +13,9 @@
 13. copy fileName.txt "destenation" --copy file; 
 14. dir E: --see the content of E but not change the directory;
 15. xcopy --copy the content not the directory, /s - copy subdirectory also;
-16.move moveFile exampeFile --to move file; 
-
+16. move moveFile exampeFile --to move file; 
+17. /? --show the feature;
+18. attrib --add path;
+19. type fileName.txt see the file content;
+20. echo text >> file.txt --add text on file, -- >> append, > add new;
+21. dir > file.txt --write dir info on that file;
