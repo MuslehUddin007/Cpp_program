@@ -40,9 +40,14 @@ void merge(int arr[],int left,int mid,int right){
 void mergeSort(int arr[],int left, int right){
     if(left<right){
         int mid = left + (right - left) / 2;
+
+        cout << "01 : " <<left << " " << mid << endl;
         mergeSort(arr,left,mid);
+
+        cout << "02 : "<< mid+1 << " "<< right << endl;
         mergeSort(arr,mid+1,right);
 
+        cout << "03 : "<<left << " "<< mid << " " << right << endl;
         merge(arr,left,mid,right);
     }
 }
