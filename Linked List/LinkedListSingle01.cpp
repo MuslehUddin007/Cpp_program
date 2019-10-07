@@ -98,6 +98,25 @@ bool search(Node* head,int key){
     return search(head -> next , key);
 }
 
+//delete node//
+void DeleteNode(Node** head_ref, int key){
+    Node *temp = *head_ref,*prev;
+    if(temp != NULL && temp->data == key){
+        *head_ref = temp->next;
+        free(temp);
+        return;
+    }
+
+    while(temp != NULL && temp->data != key){
+        prev = temp;
+        temp = temp->next;
+    }
+    if(temp == NULL)
+        return;
+    prev->next = temp->next;
+    free(temp);
+}
+
 //Driver code//
 int main()
 {
@@ -119,6 +138,11 @@ int main()
 
     bool result = search(head,9);
     cout << "\nSearch 10 : " << result;
+    cout << endl;
+
+    cout << "After Delete 1: ";
+    DeleteNode(&head,1);
+    printList(head);
 
     return 0;
 }
