@@ -22,7 +22,11 @@ void FrontBackSplit(Node* source,Node** frontRef,Node** backRef){
 
     *frontRef = source;
     *backRef = slow->next;
+    cout << "Front : " << (*frontRef)->data << endl;
+    cout << "Back : " << (*backRef)->data << endl;
     slow->next = NULL;
+    cout << "Slow : " << slow->data << endl;
+    cout << endl;
 }
 
 Node* SortedMerge(Node* a,Node* b){
