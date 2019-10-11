@@ -22,11 +22,7 @@ void FrontBackSplit(Node* source,Node** frontRef,Node** backRef){
 
     *frontRef = source;
     *backRef = slow->next;
-    cout << "Front : " << (*frontRef)->data << endl;
-    cout << "Back : " << (*backRef)->data << endl;
     slow->next = NULL;
-    cout << "Slow : " << slow->data << endl;
-    cout << endl;
 }
 
 Node* SortedMerge(Node* a,Node* b){
@@ -62,6 +58,7 @@ void MergeSort(Node** headRef){
     //recursively sort the sublists//
     MergeSort(&a);
     MergeSort(&b);
+    cout << "A: " << a->data << "  B: " << b->data << endl;
 
     //ans = merge the two sorted lists together//
     *headRef = SortedMerge(a,b);
