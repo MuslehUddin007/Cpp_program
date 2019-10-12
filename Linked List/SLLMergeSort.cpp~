@@ -20,8 +20,8 @@ void FrontBackSplit(Node* source,Node** frontRef,Node** backRef){
         }
     }
 
-    *frontRef = source;      //this is for Node : A start point//
-    *backRef = slow->next;   //this is for Node : B start point//
+    *frontRef = source;
+    *backRef = slow->next;
     slow->next = NULL;
 }
 
